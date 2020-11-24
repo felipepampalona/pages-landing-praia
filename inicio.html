@@ -20,13 +20,14 @@
 <body>
 
   <!-- Cover -->
-  <div class="align-items-center d-flex cover section-aquamarine py-2" style="background-image: url(&quot;https://qiagencia.com.br/testes/v1/imagens/cover_1.png&quot;); opacity: 0.9;">
+  <div class="align-items-center d-flex cover section-light py-2" style="background-image: url(&quot;assets/cover_1.png&quot;); opacity: 0.8;">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 p-3">
-          <form class="p-4 bg-light" method="post" data-toggle="validator">
-            <h3 class="mb-0 mt-0 display-4 text-center p-4"><img class="text-center" style="width: 320px;height: 192px;" src="https://qiagencia.com.br/testes/v1/imagens/titulo-01.png"></h3>
-          <h5 class="mb-0 mt-0 display-5 text-center">Pré lançamento exclusivo, aproveite!</h5>
+          <h3 class="mb-0 mt-0 display-4 text-center p-4"><img class="text-center" style="width: 320px;height: 192px;" src="assets/titulo-01.png"></h3>
+          <h1 class="mb-0 mt-0 display-5 text-center"><strong>Pré lançamento exclusivo, aproveite!</strong></h1>
+          <form class="p-4 bg-secondary" method="post" data-toggle="validator">
+            <h2 class="mb-4 text-center">Preencha o formulario</h2>
             <div class="form-group"> <label>Nome</label>
               <input class="form-control" placeholder="Nome..." name="nome" required=""> 
                 <!-- Error -->
@@ -42,24 +43,26 @@
                 <!-- Error -->
                 <div class="help-block with-errors"></div>
                </div>
-            <input type="submit" class="btn mt-4 btn-block p-2 btn-primary" value="Enviar contato!" name="acao">
+            <input type="submit" class="btn mt-4 btn-block p-2 btn-dark" value="Enviar contato!" name="acao">
           </form>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12 align-self-center text-lg-left text-center">
-          <p class="mb-2">O Terra Park Praia Sul está na Avenida Tiradentes, no bairro São Caetano, a 2 km do
+          <strong>
+          <p class="mb-2"><strong><h4>O Terra Park Praia Sul está na Avenida Tiradentes, no bairro São Caetano, a 2 km do
 centro. Localizado em frente o Terra Park Club Residence, que também foi construído
 pela São Francisco e hoje é o melhor e o mais completo condomínio de alto padrão da
-cidade.</p>
-        <p class="mb-2">O Terra Park Praia Sul tem um Código de edificações e restrições urbanísticas moderno,
+cidade.</h4></strong></p>
+        <p class="mb-2"><strong><h4>O Terra Park Praia Sul tem um Código de edificações e restrições urbanísticas moderno,
 garantindo um padrão de excelência nas edificações e a valorização de seu investimento.
 Visando a comodidade de seus clientes bem como a melhoria do bairro, a São Francisco
 edificará na Avenida Tiradentes, ao lado do Terra Praia Sul o Strip Mall Praia Sul, com
 lojas de diversos segmentos oferecendo aos moradores do bairro um centro de compras
-completo e diversificado.</p>
-<p class="mb-2">Desde 1995 a qualidade das obras da São Francisco é atestada por seus clientes, que
-hoje também são seus amigos. Venha você também fazer parte desta história.</p>
+completo e diversificado.</h4></strong></p>
+<p class="mb-2"><strong><h4>Desde 1995 a qualidade das obras da São Francisco é atestada por seus clientes, que
+hoje também são seus amigos. Venha você também fazer parte desta história.</h4></strong></p>
+
         </div>
       </div>
     </div>
@@ -86,5 +89,5 @@ hoje também são seus amigos. Venha você também fazer parte desta história.<
     $('[formato=cel]').mask('(99)9 9999-9999');
   </script>
 </body>
-<!--fim -->
+
 </html>
